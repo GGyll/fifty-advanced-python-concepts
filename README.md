@@ -2,6 +2,9 @@
 
 This repository contains code samples and explanations for 50 advanced Python concepts that are commonly tested in senior Python developer interviews. These concepts focus on memory management, performance optimization, and writing clean, maintainable code—key skills that separate senior engineers from mid-level developers.
 
+## Watch the Video
+I walk through these concepts in my YouTube video: **[50 Advanced Python Concepts to Nail Your Senior Interviews](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)**
+
 ## Why This List?
 I've done over 25 interviews for senior Python developer positions, some with compensation up to $200k. During these interviews, I noticed that most Python prep materials cover only the basics—leaving candidates unprepared for the deeper technical questions that truly matter at the senior level.
 
@@ -11,9 +14,6 @@ This repository is a result of my experience. Learning these concepts (especiall
 - Code examples illustrating each concept
 - Explanations of why these concepts matter in real-world applications
 - A study guide to help you prepare for senior Python interviews
-
-## Watch the Video
-I walk through these concepts in my YouTube video: **[50 Advanced Python Concepts to Nail Your Senior Interviews](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)**
 
 ## Full Study Guide
 For a more in-depth breakdown, including a Notion page with all my notes and additional code examples, let me know in the comments on my YouTube video!
