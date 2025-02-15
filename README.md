@@ -1,0 +1,41 @@
+# 50 Advanced Python Concepts for Senior Interviews
+
+This repository contains code samples and explanations for 50 advanced Python concepts that are commonly tested in senior Python developer interviews. These concepts focus on memory management, performance optimization, and writing clean, maintainable code—key skills that separate senior engineers from mid-level developers.
+
+## Why This List?
+I've done over 25 interviews for senior Python developer positions, some with compensation up to $200k. During these interviews, I noticed that most Python prep materials cover only the basics—leaving candidates unprepared for the deeper technical questions that truly matter at the senior level.
+
+This repository is a result of my experience. Learning these concepts has personally helped me land job offers paying up to $10k/month.
+
+## What You'll Find Here
+- Code examples illustrating each concept
+- Explanations of why these concepts matter in real-world applications
+- A study guide to help you prepare for senior Python interviews
+
+## Watch the Video
+I walk through these concepts in my YouTube video: **[50 Advanced Python Concepts to Nail Your Senior Interviews](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)**
+
+## Full Study Guide
+For a more in-depth breakdown, including a Notion page with all my notes and additional code examples, let me know in the comments on my YouTube video!
+
+## Connect With Me
+- **GitHub:** You're here!
+- **LinkedIn:** [Gustaf Gyll](https://www.linkedin.com/in/gustaf-g/) (Let me know you came from this video!)
+- **Website:** [Nord PropTech](https://www.nordprop.tech/)
+
+If you find this helpful, consider starring ⭐ the repo and sharing it with others preparing for senior Python interviews!
+
+---
+
+### How to Use This Repo
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GGyll/fifty-advanced-python-concepts.git
+   cd fifty-advanced-python-concepts
+   ```
+2. Go through the code samples and read the explanations.
+3. Practice and implement these concepts in your own projects.
+
+---
+
+Happy coding and best of luck with your interviews! 🚀
