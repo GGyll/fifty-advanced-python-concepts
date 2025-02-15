@@ -5,7 +5,7 @@ This repository contains code samples and explanations for 50 advanced Python co
 ## Why This List?
 I've done over 25 interviews for senior Python developer positions, some with compensation up to $200k. During these interviews, I noticed that most Python prep materials cover only the basics—leaving candidates unprepared for the deeper technical questions that truly matter at the senior level.
 
-This repository is a result of my experience. Learning these concepts has personally helped me land job offers paying up to $10k/month.
+This repository is a result of my experience. Learning these concepts (especially asyncio and concurrency/paralellism) has personally helped me land job offers paying up to $10k/month.
 
 ## What You'll Find Here
 - Code examples illustrating each concept
@@ -19,9 +19,9 @@ I walk through these concepts in my YouTube video: **[50 Advanced Python Concept
 For a more in-depth breakdown, including a Notion page with all my notes and additional code examples, let me know in the comments on my YouTube video!
 
 ## Connect With Me
-- **GitHub:** You're here!
-- **LinkedIn:** [Gustaf Gyll](https://www.linkedin.com/in/gustaf-g/) (Let me know you came from this video!)
+- **LinkedIn:** [Gustaf Gyll](https://www.linkedin.com/in/gustaf-g/) (Let me know you came from this repo!)
 - **Website:** [Nord PropTech](https://www.nordprop.tech/)
+- **Youtube:** [PropTech Founder](https://www.youtube.com/@PropTechFounder)
 
 If you find this helpful, consider starring ⭐ the repo and sharing it with others preparing for senior Python interviews!
 
