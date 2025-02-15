@@ -4,6 +4,8 @@ This repository contains code samples and explanations for 50 advanced Python co
 
 ## Watch the Video
 I walk through these concepts in my YouTube video:
+
+
 [![50 Advanced Python Concepts to get a Senior Develop Job in 2025](https://img.youtube.com/vi/QgC5lj54TNg/0.jpg)](https://www.youtube.com/watch?v=QgC5lj54TNg)
 
 ## Why This List?
