@@ -46,7 +46,6 @@ If you find this helpful, consider starring ⭐ the repo and sharing it with oth
 
 ---
 
-Add this to the **very end** of the current `README.md` (leave everything else unchanged):
 
 ---
 
