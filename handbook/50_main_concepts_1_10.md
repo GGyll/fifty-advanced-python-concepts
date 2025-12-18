@@ -6,7 +6,7 @@
 
 ## 1. Arrays (Python `array` module)
 
-This one actually threw the author off in a real interview.
+This one actually threw me off in a real interview.
 
 Python arrays are **not the same as lists**. Python has a built-in `array` module that lets you create **type-specific arrays**.
 
