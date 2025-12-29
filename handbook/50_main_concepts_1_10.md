@@ -30,6 +30,10 @@ Use arrays when:
 - You’re working with **large numeric data**
 - You don’t need list flexibility
 
+**Related Examples**
+
+- [`1.arrays.py`](../1.arrays.py)
+
 ---
 
 ## 2. Garbage Collection & Circular References
@@ -57,6 +61,10 @@ This matters when:
 - You’re debugging memory leaks
 - You’re building long-running services
 
+**Related Examples**
+
+- [`2.garbage_collection.py`](../2.garbage_collection.py)
+
 ---
 
 ## 3. Not Returning Dicts & Lists from Functions
@@ -82,6 +90,11 @@ This shows you understand:
 - Mutability
 - Memory behavior
 
+**Related Examples**
+
+- [`3.no_return.py`](../3.no_return.py)
+- [`no_return_other.py`](../no_return_other.py)
+
 ---
 
 ## 4. Method Resolution Order (MRO)
@@ -106,6 +119,10 @@ Understanding MRO helps prevent:
 - Unexpected behavior
 - Bugs in complex class hierarchies
 
+**Related Examples**
+
+- [`4.method_resolution_order.py`](../4.method_resolution_order.py)
+
 ---
 
 ## 5. Walrus Operator (`:=`)
@@ -128,6 +145,10 @@ This:
 - Shows strong Python fluency
 
 It’s small, but interviewers notice it.
+
+**Related Examples**
+
+- [`5.walrus_operator.py`](../5.walrus_operator.py)
 
 ---
 
@@ -157,6 +178,10 @@ Great for:
 - Config-driven logic
 - Clean, readable sorting logic
 
+**Related Examples**
+
+- [`6.operator_attrgetter.py`](../6.operator_attrgetter.py)
+
 ---
 
 ## 7. CPython
@@ -185,6 +210,10 @@ Understanding CPython shows you:
 - Know Python internals
 - Can reason about performance
 
+**Related Examples**
+
+- [`34.python_bytecode.py`](../34.python_bytecode.py)
+
 ---
 
 ## 8. Global Interpreter Lock (GIL)
@@ -211,6 +240,10 @@ Important distinction:
 - It does NOT affect **multiprocessing**
 
 This is a core senior-level topic.
+
+**Related Examples**
+
+- [`8.global_interpreter_lock.py`](../8.global_interpreter_lock.py)
 
 ---
 
@@ -241,6 +274,12 @@ Key challenges:
 - Non-deterministic bugs
 - GIL limitations
 
+**Related Examples**
+
+- [`10.multithreading.py`](../10.multithreading.py)
+- [`11.multiprocessing.py`](../11.multiprocessing.py)
+- [`50.asyncio.py`](../50.asyncio.py)
+
 ---
 
 ## 10. Multithreading
@@ -260,6 +299,7 @@ Why threading still matters:
 
 - While one thread waits for IO, another can run
 - Great for:
+
   - Network requests
   - File IO
   - APIs
@@ -269,4 +309,8 @@ Best practice:
 - Use `ThreadPoolExecutor`
 - Don’t manage threads manually
 
----
+**Related Examples**
+
+- [`10.multithreading.py`](../10.multithreading.py)
+- [`12.multiprocessing_locks.py`](../12.multiprocessing_locks.py)
+- [`12.multiprocessing_race_conditions.py`](../12.multiprocessing_race_conditions.py)

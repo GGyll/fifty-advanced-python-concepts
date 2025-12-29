@@ -28,6 +28,10 @@ Instead of setting up and tearing down for every test, you:
 
 This is backend-engineer-level testing knowledge.
 
+**Related Examples**
+
+- [`26.pytest_fixtures.py`](../26.pytest_fixtures.py)
+
 ---
 
 ## 27. Serialization & Deserialization
@@ -56,6 +60,13 @@ Important note:
 
 - Pickle is powerful but **not secure** for untrusted data
 
+**Related Examples**
+
+- [`27.serialization_deserialization.py`](../27.serialization_deserialization.py)
+- [`example.bin`](../example.bin)
+- [`handler.pkl`](../handler.pkl)
+- [`person.pkl`](../person.pkl)
+
 ---
 
 ## 28. `__getstate__` and `__setstate__`
@@ -82,6 +93,10 @@ This shows deep understanding of:
 - Object lifecycle
 - Serialization internals
 
+**Related Examples**
+
+- [`28.__getstate___and__setstate__.py`](../28.__getstate___and__setstate__.py)
+
 ---
 
 ## 29. `heapq`
@@ -106,6 +121,10 @@ Common use cases:
 - Shortest-path algorithms
 - Anytime “highest priority first” matters
 
+**Related Examples**
+
+- [`29.heapq.py`](../29.heapq.py)
+
 ---
 
 ## 30. Higher-Order Functions
@@ -129,6 +148,10 @@ You see this a lot in:
 - Decorators
 
 Frameworks like Django rely heavily on this pattern.
+
+**Related Examples**
+
+- [`30.higher_order_functions.py`](../30.higher_order_functions.py)
 
 ---
 
@@ -156,6 +179,10 @@ Using `filter` shows:
 - Standard library fluency
 - Clean Python style
 
+**Related Examples**
+
+- [`31.filter.py`](../31.filter.py)
+
 ---
 
 ## 32. Advanced List Comprehensions
@@ -176,6 +203,10 @@ This allows:
 - Reduced boilerplate
 
 Senior engineers know when to use this—and when not to overdo it.
+
+**Related Examples**
+
+- [`32.advanced_list_comprehension.py`](../32.advanced_list_comprehension.py)
 
 ---
 
@@ -203,6 +234,13 @@ Understanding `bytes` is critical when dealing with:
 - APIs
 - Performance-sensitive systems
 
+**Related Examples**
+
+- [`33.bytes.py`](../33.bytes.py)
+- [`example.txt`](../example.txt)
+- [`file1.txt`](../file1.txt)
+- [`file2.txt`](../file2.txt)
+
 ---
 
 ## 34. Bytecode & `dis` Module
@@ -222,6 +260,10 @@ This helps with:
 - Learning Python internals
 
 Senior engineers don’t use this daily—but knowing it exists matters.
+
+**Related Examples**
+
+- [`34.python_bytecode.py`](../34.python_bytecode.py)
 
 ---
 
@@ -243,6 +285,10 @@ Normal slicing creates copies.
 
 Using this can massively reduce memory usage in data-heavy systems.
 
+**Related Examples**
+
+- [`35.memoryview.py`](../35.memoryview.py)
+
 ---
 
 ## 36. Metaclasses
@@ -261,6 +307,10 @@ With custom metaclasses you can:
 - Generate behavior dynamically
 
 This is advanced but very powerful.
+
+**Related Examples**
+
+- [`36.metaclasses.py`](../36.metaclasses.py)
 
 ---
 
@@ -283,6 +333,10 @@ This explains:
 
 Understanding this separates advanced users from power users.
 
+**Related Examples**
+
+- [`36.metaclasses.py`](../36.metaclasses.py)
+
 ---
 
 ## 38. Nesting & Combining Context Managers
@@ -292,8 +346,6 @@ You can nest context managers using:
 ```python
 with open(a), open(b):
     ...
-```
-
 ```
 
 When context managers are dynamic:
@@ -311,6 +363,10 @@ Very useful for:
 - Files
 - DB connections
 - Resource pools
+
+**Related Examples**
+
+- [`37.nesting_and_combining_context_managers.py`](../37.nesting_and_combining_context_managers.py)
 
 ---
 
@@ -332,6 +388,10 @@ Especially useful for:
 - Database transactions
 - Temporary states
 - Resource handling
+
+**Related Examples**
+
+- [`38.custom_context_managers.py`](../38.custom_context_managers.py)
 
 ---
 
@@ -356,4 +416,8 @@ Downside:
 - Must ensure strong references exist when needed
 
 This shows deep GC and memory knowledge.
-```
+
+**Related Examples**
+
+- [`39.weakref.py`](../39.weakref.py)
+- [`41.weak_key_dictionary.py`](../41.weak_key_dictionary.py)
