@@ -31,6 +31,21 @@ if __name__ == "__main__":
     p2 = Process(target=add_one, args=(q1, q2))
     p3 = Process(target=multiply, args=(q2,))
 
+    # What will be printed (order may vary because processes run in parallel):
+    #   Producer: 1
+    #   Add one: 2
+    #   Multiply: 10
+    #   Producer: 2
+    #   Add one: 3
+    #   Multiply: 15
+    #   Producer: 3
+    #   Add one: 4
+    #   Multiply: 20
+    #
+    # Notes:
+    # - Exact interleaving is NOT guaranteed.
+    # - These 9 lines are the expected set of outputs.
+
     p1.start()
     p2.start()
     p3.start()
