@@ -31,6 +31,10 @@ This allows Python to:
 - More complex data sharing
 - Slower startup time
 
+**Related Examples**
+
+- [`11.multiprocessing.py`](../11.multiprocessing.py)
+
 ---
 
 ## 12. Race Conditions (Multiprocessing & Multithreading)
@@ -60,6 +64,11 @@ This leads to:
 
 Race conditions are one of the most common causes of production bugs.
 
+**Related Examples**
+
+- [`12.multiprocessing_race_conditions.py`](../12.multiprocessing_race_conditions.py)
+- [`12.multiprocessing_locks.py`](../12.multiprocessing_locks.py)
+
 ---
 
 ## 13. Shared Memory in Multiprocessing
@@ -84,6 +93,10 @@ Important detail:
 - Always use synchronization to avoid corruption
 
 This shows you understand **process isolation** and performance trade-offs.
+
+**Related Examples**
+
+- [`13.shared_memory_in_multiprocessing.py`](../13.shared_memory_in_multiprocessing.py)
 
 ---
 
@@ -114,6 +127,10 @@ Using `collections` shows:
 - Strong standard library knowledge
 - Practical Python experience
 
+**Related Examples**
+
+- [`14.collections.py`](../14.collections.py)
+
 ---
 
 ## 15. Encapsulation
@@ -137,6 +154,10 @@ This protects:
 - API stability
 
 Python doesn’t enforce privacy strictly, but **convention matters**.
+
+**Related Examples**
+
+- [`15.encapsulation.py`](../15.encapsulation.py)
 
 ---
 
@@ -162,6 +183,10 @@ If a class subclasses an ABC:
 
 This is common in frameworks and large systems.
 
+**Related Examples**
+
+- [`16.abstraction.py`](../16.abstrazction.py)
+
 ---
 
 ## 17. Abstract Base Classes (`abc`)
@@ -181,6 +206,10 @@ When to use:
 - You want clean architecture
 
 This is heavily used in Django, FastAPI internals, and libraries.
+
+**Related Examples**
+
+- [`17.abstract_classes.py`](../17.abstract_classes.py)
 
 ---
 
@@ -208,6 +237,10 @@ Bad inheritance causes:
 - Fragile code
 - Maintenance nightmares
 
+**Related Examples**
+
+- [`18.inheritance.py`](../18.inheritance.py)
+
 ---
 
 ## 19. Polymorphism
@@ -234,6 +267,10 @@ Polymorphism enables:
 
 This is one of the reasons Python scales well in large codebases.
 
+**Related Examples**
+
+- [`19.polymorphism.py`](../19.polymorphism.py)
+
 ---
 
 ## 20. Python Data Model (Magic / Dunder Methods)
@@ -256,6 +293,11 @@ Understanding the data model lets you:
 - Build powerful abstractions
 
 This is core senior-level knowledge.
+
+**Related Examples**
+
+- [`51.call_method.py`](../51.call_method.py)
+- [`_slots.py`](../_slots.py)
 
 ---
 
@@ -282,6 +324,10 @@ Understanding iterators helps with:
 - Performance
 - Lazy evaluation
 - Custom data pipelines
+
+**Related Examples**
+
+- [`21.iterators.py`](../21.iterators.py)
 
 ---
 
@@ -310,6 +356,10 @@ Generators are essential for:
 - Large datasets
 - Memory-sensitive applications
 
+**Related Examples**
+
+- [`22.generators.py`](../22.generators.py)
+
 ---
 
 ## 23. `@staticmethod` and `@classmethod`
@@ -333,6 +383,10 @@ Choosing the right one improves:
 - Readability
 - Design clarity
 - API correctness
+
+**Related Examples**
+
+- [`23.staticmethods_and_classmethods.py`](../23.staticmethods_and_classmethods.py)
 
 ---
 
@@ -365,6 +419,11 @@ Used heavily in:
 - Large services
 - Testable codebases
 
+**Related Examples**
+
+- [`24.with_dependency_injection.py`](../24.with_dependency_injection.py)
+- [`24.without_dependency_injection.py`](../24.without_dependency_injection.py)
+
 ---
 
 ## 25. Parameterized Testing
@@ -392,4 +451,6 @@ Shows:
 - Testing maturity
 - Professional engineering habits
 
----
+**Related Examples**
+
+- [`26.pytest_fixtures.py`](../26.pytest_fixtures.py)

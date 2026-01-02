@@ -22,6 +22,11 @@ Use cases:
 
 This prevents subtle memory leaks in long-running systems.
 
+**Related Examples**
+
+- [`41.weak_key_dictionary.py`](../41.weak_key_dictionary.py)
+- [`39.weakref.py`](../39.weakref.py)
+
 ---
 
 ## 42. Optimizing Memory with `__slots__`
@@ -45,6 +50,10 @@ Tradeoff:
 - Less flexibility
 - Slightly more rigid design
 
+**Related Examples**
+
+- [`_slots.py`](../_slots.py)
+
 ---
 
 ## 43. `memory_profiler`
@@ -65,6 +74,10 @@ Usage pattern:
 
 This is production-level debugging, not beginner tooling.
 
+**Related Examples**
+
+- [`43.memory_profiler.py`](../43.memory_profiler.py)
+
 ---
 
 ## 44. `sys.getsizeof()`
@@ -83,6 +96,10 @@ Useful for:
 - Understanding storage costs
 
 Often used alongside memory profilers for deeper analysis.
+
+**Related Examples**
+
+- [`44.getsizeof.py`](../44.getsizeof.py)
 
 ---
 
@@ -105,6 +122,10 @@ They can:
 - Accept arguments themselves
 
 This demonstrates strong functional programming skills.
+
+**Related Examples**
+
+- [`45.advanced_decorators.py`](../45.advanced_decorators.py)
 
 ---
 
@@ -131,6 +152,10 @@ They make code:
 - More readable
 - Easier to maintain
 
+**Related Examples**
+
+- [`46.dataclasses.py`](../46.dataclasses.py)
+
 ---
 
 ## 47. Metaprogramming
@@ -152,6 +177,11 @@ Used heavily in:
 
 Powerful, but must be used carefully to avoid unreadable code.
 
+**Related Examples**
+
+- [`36.metaclasses.py`](../36.metaclasses.py)
+- [`45.advanced_decorators.py`](../45.advanced_decorators.py)
+
 ---
 
 ## 48. `functools`
@@ -171,6 +201,10 @@ These help:
 - Improve performance
 
 Interviewers love seeing standard library mastery.
+
+**Related Examples**
+
+- [`48.functools.py`](../48.functools.py)
 
 ---
 
@@ -192,6 +226,10 @@ This allows:
 - Clean validation logic
 
 Very common in modern Python codebases.
+
+**Related Examples**
+
+- [`49.advanced_dataclass_features.py`](../49.advanced_dataclass_features.py)
 
 ---
 
@@ -217,4 +255,7 @@ Best for:
 
 It provides concurrency without threads or processes and is a core skill for modern Python engineers.
 
----
+**Related Examples**
+
+- [`50.asyncio.py`](../50.asyncio.py)
+- [`52.multiprocess_with_queue.py`](../52.multiprocess_with_queue.py)
