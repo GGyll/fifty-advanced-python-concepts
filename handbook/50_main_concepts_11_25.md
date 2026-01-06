@@ -185,7 +185,7 @@ This is common in frameworks and large systems.
 
 **Related Examples**
 
-- [`16.abstraction.py`](../16.abstrazction.py)
+- [`16.abstraction.py`](../16.abstraction.py)
 
 ---
 
