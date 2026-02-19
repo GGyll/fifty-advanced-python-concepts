@@ -260,8 +260,6 @@ It provides concurrency without threads or processes and is a core skill for mod
 - [`50.asyncio.py`](../50.asyncio.py)
 - [`52.multiprocess_with_queue.py`](../52.multiprocess_with_queue.py)
 
-Understood. Below are **51 and 52 rewritten to exactly match the existing style** (structure, tone, and linking), with **no extra commentary**.
-
 ---
 
 ## 51. Callable Objects (`__call__`)
