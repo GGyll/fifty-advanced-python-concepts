@@ -259,3 +259,51 @@ It provides concurrency without threads or processes and is a core skill for mod
 
 - [`50.asyncio.py`](../50.asyncio.py)
 - [`52.multiprocess_with_queue.py`](../52.multiprocess_with_queue.py)
+
+---
+
+## 51. Callable Objects (`__call__`)
+
+Objects can be made **callable** by defining a `__call__` method.
+
+What this enables:
+
+- Instances behave like functions
+- Objects can retain internal state
+- Configuration and behavior live together
+
+Use cases:
+
+- Function-like objects with state
+- Strategy-style patterns
+- Reusable, parameterized behavior
+
+This is cleaner than closures when state must persist across calls.
+
+**Related Examples**
+
+- [`51.callable_objects.py`](../51.call_method.py)
+
+---
+
+## 52. Multiprocessing with `Queue`
+
+The `multiprocessing` module enables **true parallelism** using separate processes.
+
+Key concepts:
+
+- Each process has its own memory space
+- `Queue` allows safe inter-process communication
+- Execution order is non-deterministic
+
+Use cases:
+
+- CPU-bound workloads
+- Multi-stage processing pipelines
+- Parallel data transformation
+
+This pattern avoids the GIL and scales across CPU cores.
+
+**Related Examples**
+
+- [`52.multiprocess_with_queue.py`](../52.multiprocess_with_queue.py)
