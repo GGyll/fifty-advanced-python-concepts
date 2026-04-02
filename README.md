@@ -26,9 +26,9 @@ For a more in-depth breakdown, including a Notion page with all my notes and add
 
 ## Connect With Me
 
-- **LinkedIn:** [Gustaf Gyll](https://www.linkedin.com/in/gustaf-g/) (Let me know you came from this repo!)
 - **Website:** [Nord PropTech](https://www.nordprop.tech/)
 - **Youtube:** [PropTech Founder](https://www.youtube.com/@PropTechFounder)
+- **Twitter/X:** [gostak_dd]([https://www.youtube.com/@PropTechFounder])
 
 If you find this helpful, consider starring ⭐ the repo and sharing it with others preparing for senior Python interviews!
 
