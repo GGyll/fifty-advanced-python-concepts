@@ -28,7 +28,7 @@ For a more in-depth breakdown, including a Notion page with all my notes and add
 
 - **Website:** [Nord PropTech](https://www.nordprop.tech/)
 - **Youtube:** [PropTech Founder](https://www.youtube.com/@PropTechFounder)
-- **Twitter/X:** [gostak_dd]([https://www.youtube.com/@PropTechFounder])
+- **Twitter/X:** [gostak_dd](https://www.youtube.com/@PropTechFounder)
 
 If you find this helpful, consider starring ⭐ the repo and sharing it with others preparing for senior Python interviews!
 
